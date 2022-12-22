@@ -7,8 +7,8 @@ This AWS CDK will create an Amazon CloudWatch Dashboard which displays Connect m
 
 1. Login into your AWS account and select the appropriate Region.
 2. Open AWS CloudShell.
-3. At the terminal prompt, clone this repo: git clone https://github.com/aws-samples/amazon-connect-instance-dashboard.git . Note: if you are not using CloudShell to deploy this solution, you will need to revise bin/amazon-connect-instance-level-dashboard.ts with the correct location of the parameters file. 
-4. Using a standard text editor, create a text file named dashboardparameters.json. Copy this into the file:
+3. At the terminal prompt, clone this repo: `git clone https://github.com/aws-samples/amazon-connect-instance-dashboard.git` . Note: if you are not using CloudShell to deploy this solution, you will need to revise `bin/amazon-connect-instance-level-dashboard.ts` with the correct location of the parameters file. 
+4. Using a standard text editor, create a text file named `dashboardparameters.json`. Copy this into the file:
 ```json
 {
     "ConnectInstanceId": "placeholder-instance-id (36 characters)",
@@ -20,9 +20,9 @@ This AWS CDK will create an Amazon CloudWatch Dashboard which displays Connect m
     ]
 }
 ```
-5. Replace the placeholder values with your Connect instance details. Make sure file contains valid JSON.  
-6. Upload the dashboardparameters.json file to CloudShell using the Actions menu.
-7. In the CloudShell terminal, enter: cd amazon-connect-instance-level-dashboard
+5. Replace the placeholder values with your Connect instance details. Make sure the file contains valid JSON.  
+6. Upload the dashboardparameters.json file to CloudShell using the `Actions` menu.
+7. In the CloudShell terminal, enter: `cd amazon-connect-instance-dashboard`.
 8. Then enter the following commands:
 ```bash
 npm install

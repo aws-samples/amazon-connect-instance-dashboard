@@ -4,7 +4,7 @@ import { AmazonConnectInstanceLevelDashboardStack } from '../lib/amazon-connect-
 import { BuildConfig } from "../lib/build-config";
 
 //adjust dashboardparameters.json file path as needed
-import param from '/Users/jjohnaws/Documents/dashboardparameters.json'  //'/home/cloudshell-user/dashboardparameters.json'
+import param from '/home/cloudshell-user/dashboardparameters.json'
 
 const app = new cdk.App();
 
