@@ -1,6 +1,6 @@
 # Amazon Connect Instance Metrics Dashboard 
 
-This is the companion repository for the blog post [Visualizing Amazon Connect instance metrics with Amazon CloudWatch](https://aws.amazon.com/blogs/contact-center/visualizing-amazon-connect-instance-metrics-with-amazon-cloudWatch).
+This is the companion repository for the blog post [Visualizing Amazon Connect instance metrics with Amazon CloudWatch](https://aws.amazon.com/blogs/contact-center/visualizing-amazon-connect-instance-metrics-with-amazon-cloudwatch).
 
 ## How to Deploy the Dashboard
 This AWS CDK will create an Amazon CloudWatch Dashboard which displays Connect metrics in the form of graph widgets. To deploy the dashboard in your AWS account, do the following. Note: Please make sure you login into the correct AWS Account and Region that contains your Amazon Connect instance(s). 
